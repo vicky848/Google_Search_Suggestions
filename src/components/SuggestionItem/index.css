@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.suggestion-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  list-style-type: none;
+}
+.suggestion-description {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin: 0;
+}
+.button-act {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.button-act.hover {
+  cursor: pointer;
+}
+.arrow-item {
+  height: 14px;
+  width: 14px;
+}
